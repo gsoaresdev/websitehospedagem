@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h1 {
+    font-size: 32px;
+    color: #000000
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho p {
+    font-size: 16px;
+    color: #2f86d6
+}
+
+.links-cabecalho a {
+    color: #233032;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.logo-cabecalho {
+    display: flex;
+    
+}
+
+.links-cabecalho {
+    justify-content: space-evenly;
+    padding: 35px;
+}
+
+.logo-cabecalho img {
+    width: 80px;
+}
+
+.banner {
+    margin-right: 300px;
+}
+.banner-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30%;
+    background-color: #2f86d6;
+    color: #fff;
+    margin: 0 auto;
+    
+}
+
+.textos-banner {
+    margin: 5% auto;
+    max-width: 350px;
+}
+
+.separador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #233032;
+    color: #fff;
+    padding: 1% 5%;
+}
+
+.separador h2 {
+    font-size: 24px;
+}
+
+.link-preco {
+    background-color: #2f86d6;
+    height: 35px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.link-preco a{
+    text-decoration: none;
+    color: #fff
+
+}
+
+#informacoes {
+    margin: 30px 400px;
+}
+
+#informacoes h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 32px;
+}
+
+#informacoes h3 span {
+    font-size: 32px;
+    color: #2f86d6;
+}
+
+.texto-separador {
+    margin-left: 0 auto;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 350px;
+    text-align: center;
+}
+
+.card img{
+    width: 80px;
+    padding: 5px;
+}
+
+.card h4 {
+    padding: 15px;
+}
+
+#planos h3{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 32px;
+    color: #000000;
+}
+
+#planos {
+    margin: 50px 470px;
+}
+
+.icone {
+    width: 120px;
+}
+
+.tabela{
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+.p-tabela {
+    font-size: 13px;
+    color: #a89f9f
+}
+
+.logo-rodape img {
+    width: 80px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape p {
+    font-size: 16px;
+    color: #2f86d6
+}
+
+#contato div p {
+    line-height: 30px;
+}
+
+.dev {
+    padding: 40px 0;
+}
+
+span {
+    font-size: 16px;
+    color: #2f86d6;
+    font-weight: 600;
+}
