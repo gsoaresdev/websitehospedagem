@@ -171,7 +171,7 @@ header {
     padding: 15px;
 }
 
-#planos div{
+#planos {
     max-width: 1024px;
     display: flex;
     flex-direction: column;
@@ -179,16 +179,27 @@ header {
     flex-wrap: wrap;
     gap: 10px;
     margin: 0 auto;
-
 }
 
-#planos div h3{
+#planos h3{
     font-size: 32px;
     padding: 50px 0;
 }
 
 .icone {
     max-width: 120px;
+}
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 600px) {
+    .grid { grid-template-columns: repeat(1, 1fr); }
 }
 
 .tabela{
